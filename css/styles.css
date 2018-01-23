@@ -1,0 +1,51 @@
+body {
+	
+	text-align: center;
+	background-color: yellow;
+}
+
+.sectionTitle {
+	font-size: 35px;
+}
+
+.guide{
+	display: inline;
+}
+
+.pizzaman{
+	bottom:25%;
+    position:absolute;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+}     
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 100%;}
+    100%{ left: 0;}
+}
+
+	
+	
+
+
+.pizza {
+	background-color: red;
+	margin: auto;
+    width: 40%;
+    border: 3px solid black;
+    padding: 10px;
+    column: 5;
+    
+	
+}
+
+#today {
+	background: #fff;
+	 box-shadow: 5px 10px;
+}
+
+#addy {
+	list-style: none;
+
+}
